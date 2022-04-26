@@ -1,0 +1,56 @@
+//
+// Variables // --------------------------------------------------
+
+$primaryFontTitle: 'Rubik', sans-serif;
+$primaryFontText: 'Rubik', sans-serif;
+
+
+// --------------------------------------------------//
+
+
+// colors --------------------------------------------------//
+//$tableRowsColor:#102B35;
+$headerBgDark: #0D0D2B;
+//$black:#111314;
+$white: #ffffff;
+$mainButtonBleu: #3671E9;
+//$navBtnColor: #FDD02D;
+//$loginBg: #2F2E31;
+$colorMainFonts: #E0E0E0;
+//$mainInputsAddFormColor:#1B3E55C7;
+
+// --------------------------------------------------//
+// z-index
+$overlayZ: 2000;
+$popupZ: 3000;
+$closeZ: 1100;
+$profZ: 1200;
+$prodZ: 1100;
+$nameZ: 1201;
+
+
+//- global media vars
+
+$def:          320px;
+
+$xs: 23.5em;    // 376px @media (max-width: $xs) {}
+
+$sm:            36em;      // (min-width: 576px)
+$md:            48em;      // (min-width: 768px)
+$lg:            62em;      // (min-width: 992px)
+$gl:            64em;      //! gap `lg - xl` (min-width: 1024px)
+$xl:            75em;      // (min-width: 1200px)
+
+//- to container
+
+$col-sm:        540px;  // (max-width: 540px)
+$col-md:        720px;  // (max-width: 720px)
+$col-lg:        960px;  // (max-width: 960px)
+$col-xl:        1140px; // (max-width: 1140px)
+
+$breakpoints: (
+  sm: $sm,
+  md: $md,
+  lg: $lg,
+  xl: $xl
+);

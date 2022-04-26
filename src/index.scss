@@ -1,0 +1,10 @@
+@import "./sass/main";
+body {
+  margin: 0;
+  background-color: $headerBgDark;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
