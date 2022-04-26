@@ -1,5 +1,6 @@
 @import "./src/sass/mixins";
 .whyWeComponentContainer{
+  position: relative;
   padding-top: 100px;
   height: 100vh;
 }
@@ -96,7 +97,9 @@
 }
 
 .whyWeComponentEarnSection{
-  padding: 100px 0;
+  //padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;

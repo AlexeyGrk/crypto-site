@@ -7,7 +7,7 @@ import styles from './Header.module.scss'
 
 const Header = () => {
   return (
-    <header>
+    <header className={'container'}>
       <div className={styles.headerContainer}>
         <NavLink
           to="/"

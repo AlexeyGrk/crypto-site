@@ -8,7 +8,7 @@ import {ReactComponent as SecondaryIllustration} from "../../assets/Illustration
 
 const WhyWeComponent = (props) => {
   return (
-    <>
+    <div className={'container'}>
     <div className={styles.whyWeComponentContainer}>
      <div className={styles.statisticContainer}>
        <div  className={styles.statisticElement}>
@@ -56,7 +56,7 @@ const WhyWeComponent = (props) => {
         <h2 className={styles.whyWeComponentMainTextTitle}>Check how much you can earn</h2>
         <p className={styles.whyWeComponentSecondaryText}> Let’s check your hash rate to see how much you will earn today, <br/> Exercitation veniam consequat sunt nostrud amet.</p>
       </div>
-    </>
+    </div>
   );
 };
 
