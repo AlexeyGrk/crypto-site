@@ -2,7 +2,7 @@ import React from 'react';
 import {ReactComponent as Logo} from "../../assets/Logo3.svg";
 import {ReactComponent as HeaderIllustration} from "../../assets/Illustration.svg";
 import {ReactComponent as ArrowRight} from "../../assets/Arrow-Right.svg";
-import {ReactComponent as HeaderPanell} from "../../assets/headerPanelIcon.svg";
+// import {ReactComponent as HeaderPanell} from "../../assets/headerPanelIcon.svg";
 import {NavLink} from "react-router-dom";
 import styles from './Header.module.scss'
 

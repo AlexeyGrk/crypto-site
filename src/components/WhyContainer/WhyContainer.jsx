@@ -4,8 +4,8 @@ import {ReactComponent as ChartIcon} from "../../assets/IconChart.svg";
 import {ReactComponent as PersonalIcon} from "../../assets/IconPersonal.svg";
 import {ReactComponent as EarthIcon} from "../../assets/IconEarth.svg";
 import {ReactComponent as SecondaryIllustration} from "../../assets/Illustrations2.svg";
-import {ReactComponent as LimeFigure} from "../../assets/sliceLimeFigure.svg";
-import {ReactComponent as LimeFigureTwo} from "../../assets/sliceLimeFigureTwo.svg";
+// import {ReactComponent as LimeFigure} from "../../assets/sliceLimeFigure.svg";
+// import {ReactComponent as LimeFigureTwo} from "../../assets/sliceLimeFigureTwo.svg";
 
 
 const WhyWeComponent = (props) => {
