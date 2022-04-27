@@ -30,7 +30,16 @@
 .featuresBitcoinInfoTextContainer{
   padding-top: 40px;
   max-width: 400px;
-  margin-right: 100px;
+  margin-right: 90px;
+}
+.featuresBitcoinStatisticTextContainer{
+  padding-top: 40px;
+  max-width: 400px;
+  margin-left: 90px;
+}
+.featuresBitcoinInfoTableTextContainer{
+  padding-top: 40px;
+  max-width: 450px;
 }
 
 .featuresBitcoinTitle{
@@ -63,5 +72,11 @@
 
 .featuresStatisticInfoContainer{
   margin-top: 120px;
+  margin-bottom: 120px;
   display: flex;
+  align-items: center;
+ position: relative;
+  left: -160px;
+}
+.featuresStatisticInfoImage{
 }
