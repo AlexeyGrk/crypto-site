@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 50px;
 }
 .statisticElement{
   display: flex;
@@ -52,8 +53,19 @@
 
 
 .whyWeComponentMainInfoContainer{
+  position: relative;
   display: flex;
   align-items: center;
+}
+.whyWeComponentLimeFigure{
+  position: absolute;
+  top: -80px;
+  right: -150px;
+ }
+.whyWeComponentLimeFigureTwo{
+  position: absolute;
+  right: -160px;
+  bottom: -60px;
 }
 .whyWeComponentMainImageContainer{
 

@@ -1,3 +1,4 @@
+@import "./src/sass/mixins";
 .bgStartMining{
   padding: 88px 0;
   position: relative;
@@ -6,10 +7,109 @@
   background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
 }
 .blueBlock{
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
   width: 100%;
   min-width: 400px;
   max-width: 1200px;
   background-color: #3671E9;
   border-radius: 16px;
   padding: 48px;
+}
+
+.startMiningMainTitle{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+
+  /* Neutral/White */
+  color: #FFFFFF;
+
+  mix-blend-mode: normal;
+}
+.startMiningTriangleBg{
+  position: absolute;
+  top: 0;
+  left: 25px;
+
+}
+.diagonalLine{
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: -10%;
+
+}
+.diagonalLineSecondary{
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: 20%;
+}
+.startMiningBitcoinBg{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.startMiningMainText{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  letter-spacing: 0.01em;
+  /* Neutral/White */
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  max-width: 348px;
+
+
+}
+
+.startMiningSubscribeBtn{
+  @include btn-blue();
+  background-color: #FFFFFF;
+  padding: 14px 32px;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  text-align: center;
+
+  /* Color / Primary */
+  color: #0D0D2B;
+
+}
+.startMiningMainInputAndBtnContainer{
+  width: 100%;
+  max-width: 580px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  //margin-left: 180px;
+}
+.startMiningMainInput{
+  width: 100%;
+  min-height: 38px;
+  max-width: 375px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: transparent;
+  color: inherit;
+  outline: none;
+  margin-right: 40px;
+  &::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    letter-spacing: 0.01em;
+    /* Neutral/White */
+    color: #FFFFFF;
+  }
 }

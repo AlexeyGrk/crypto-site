@@ -4,6 +4,7 @@ import WhyWeComponent from "./components/WhyContainer/WhyContainer";
 import TradeSecurely from "./components/TradeSecuraly/TradeSecurely";
 import Features from "./components/Features/Features";
 import StartMining from "./components/StartMining/StartMining";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <TradeSecurely />
       <Features/>
       <StartMining/>
+      <Footer/>
+
 
     </div>
   );

@@ -2,12 +2,13 @@ import React from 'react';
 import {ReactComponent as BitcoinChart} from "../../assets/ChartBitcoin.svg";
 import {ReactComponent as StaticChart} from "../../assets/StatisticChart.svg";
 import {ReactComponent as TableChart} from "../../assets/TableIcon.svg";
+
 import styles from './Features.module.scss'
 
 
 const Features = (props) => {
   return (
-    <div className={styles.bgContainer}>
+    <div id="features" className={styles.bgContainer}>
 
      <div className={'container'}>
        <h2 className={styles.featuresMainTitle}>Market sentiments, portfolio, and run the infrastructure of your choice</h2>

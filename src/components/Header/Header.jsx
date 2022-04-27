@@ -2,12 +2,15 @@ import React from 'react';
 import {ReactComponent as Logo} from "../../assets/Logo3.svg";
 import {ReactComponent as HeaderIllustration} from "../../assets/Illustration.svg";
 import {ReactComponent as ArrowRight} from "../../assets/Arrow-Right.svg";
+import {ReactComponent as HeaderPanell} from "../../assets/headerPanelIcon.svg";
 import {NavLink} from "react-router-dom";
 import styles from './Header.module.scss'
 
 const Header = () => {
   return (
     <header className={'container'}>
+      {/*<HeaderPanell className={styles.headerPanelBg}/>*/}
+      {/*<HeaderPanell className={styles.headerPanelBgRight}/>*/}
       <div className={styles.headerContainer}>
         <NavLink
           to="/"
@@ -20,28 +23,28 @@ const Header = () => {
         <nav className={styles.navigationSector}>
           <ul className={styles.navigationList}>
             <li className={styles.navigationListItem}>
-              <NavLink
+              <a
                 className={`link ${styles.navigationLink}`}
-                to="products"
+                href="#product"
                 // style={({ isActive }) =>
                 //   isActive ? activeStyle : undefined
                 // }
               >
                 Products
-              </NavLink>
+              </a>
 
 
             </li>
             <li className={styles.navigationListItem}>
-              <NavLink
+              <a
                 className={`link ${styles.navigationLink}`}
-                to="features"
+                href="#features"
                 // style={({ isActive }) =>
                 //   isActive ? activeStyle : undefined
                 // }
               >
                 Features
-              </NavLink>
+              </a>
             </li>
             <li className={styles.navigationListItem}>
               <NavLink
@@ -55,15 +58,15 @@ const Header = () => {
               </NavLink>
             </li>
             <li className={styles.navigationListItem}>
-              <NavLink
+              <a
                 className={`link ${styles.navigationLink}`}
-                to="contact"
+                href="#contact"
                 // style={({ isActive }) =>
                 //   isActive ? activeStyle : undefined
                 // }
               >
                 Contact
-              </NavLink>
+              </a>
             </li>
 
           </ul>

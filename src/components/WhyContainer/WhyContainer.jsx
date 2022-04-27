@@ -4,12 +4,14 @@ import {ReactComponent as ChartIcon} from "../../assets/IconChart.svg";
 import {ReactComponent as PersonalIcon} from "../../assets/IconPersonal.svg";
 import {ReactComponent as EarthIcon} from "../../assets/IconEarth.svg";
 import {ReactComponent as SecondaryIllustration} from "../../assets/Illustrations2.svg";
+import {ReactComponent as LimeFigure} from "../../assets/sliceLimeFigure.svg";
+import {ReactComponent as LimeFigureTwo} from "../../assets/sliceLimeFigureTwo.svg";
 
 
 const WhyWeComponent = (props) => {
   return (
     <div className={'container'}>
-    <div className={styles.whyWeComponentContainer}>
+    <div id="product" className={styles.whyWeComponentContainer}>
      <div className={styles.statisticContainer}>
        <div  className={styles.statisticElement}>
          <div className={styles.statisticElementImageContainer} >
@@ -40,6 +42,7 @@ const WhyWeComponent = (props) => {
        </div>
      </div>
       <div className={styles.whyWeComponentMainInfoContainer}>
+        {/*<LimeFigure className={styles.whyWeComponentLimeFigure}/>*/}
         <div  className={styles.whyWeComponentMainImageContainer}>
           <SecondaryIllustration className={styles.whyWeComponentMainImage}/>
         </div>
@@ -49,7 +52,7 @@ const WhyWeComponent = (props) => {
           <button className={styles.whyWeComponentLearnMoreButton}>Learn more</button>
         </div>
 
-
+      {/*<LimeFigureTwo className={styles.whyWeComponentLimeFigureTwo}/>*/}
       </div>
     </div>
       <div className={styles.whyWeComponentEarnSection}>

@@ -3,11 +3,22 @@ header{
   height: 100vh;
 }
 .headerContainer{
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 60px;
 
+}
+.headerPanelBg{
+  position: absolute;
+  bottom: -120px;
+  left: 130px;
+}
+.headerPanelBgRight{
+  position: absolute;
+  top: 250px;
+  right: -400px;
 }
 .navigationSector{
   display: flex;
