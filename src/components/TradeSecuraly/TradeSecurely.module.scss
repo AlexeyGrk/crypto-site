@@ -23,6 +23,9 @@
   @include media-max(767){
     max-height: 430px;
   }
+  @include media-max(500){
+    max-height: 530px;
+  }
    input{
      min-height: 38px;
      &::placeholder {
@@ -120,6 +123,9 @@
   /* or 60px */
   /* Color / Primary */
   color: #0D0D2B;
+  @include media-max(500){
+    padding-top: 100px;
+  }
 
 }
 
