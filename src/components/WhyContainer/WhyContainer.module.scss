@@ -15,17 +15,24 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 50px;
+
   @include media-max(767){
     padding-top: 100px;
     flex-direction: column-reverse;
     align-items: flex-start;
-    gap: 35px;
+
+    //gap: 35px;
     //display: none;
   }
 }
 .statisticElement{
   display: flex;
   align-items: center;
+  margin-bottom: 35px;
+  &:first-child{
+    margin-bottom: 0;
+  }
+
 }
 .statisticElementImageContainer{
   width: 80px;
@@ -44,6 +51,7 @@
     /* identical to box height, or 60px */
     /* Neutral / White */
     color: #FFFFFF;
+
   }
   .statisticSecondaryText{
     /* Body / Small - Regular */
@@ -140,7 +148,7 @@
     padding-top: 800px;
   }
   @include media-max(500){
-    padding-top: 950px;
+    padding-top: 1050px;
   }
   //@include media-max(500){
   //  padding-top: 800px;

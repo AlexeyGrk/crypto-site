@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {ReactComponent as Logo} from "../../assets/Logo3.svg";
 import {ReactComponent as HeaderIllustration} from "../../assets/Illustration.svg";
 import {ReactComponent as ArrowRight} from "../../assets/Arrow-Right.svg";
@@ -7,6 +7,7 @@ import {NavLink} from "react-router-dom";
 import styles from './Header.module.scss'
 
 const Header = () => {
+  const [isShow,setIsShow]=useState(false)
   return (
     <header className={'container'}>
 
@@ -82,7 +83,7 @@ const Header = () => {
 
         </nav>
           <div className={styles.navigationBurgerSector}>
-            <input id="toggle" type="checkbox"></input>
+            <input id="toggle" type="checkbox" checked={isShow ? true : false} onClick={()=>setIsShow(prevState => !prevState)}></input>
 
             <label htmlFor="toggle" className="hamburger">
               <div className="top-bun"></div>
@@ -90,16 +91,18 @@ const Header = () => {
               <div className="bottom-bun"></div>
             </label>
 
-            <div className="nav">
+            {isShow && <div className="nav">
               <div className="nav-wrapper">
                 <nav>
-                  <a className="nav-wrapper-link" href="#products">Products</a><br/>
-                  <a className="nav-wrapper-link" href="#features">Features</a><br/>
-                  <a className="nav-wrapper-link" href="#about">About</a><br/>
-                  <a className="nav-wrapper-link" href="#features">Features</a>
+                  <a className="nav-wrapper-link" onClick={() => {
+                    setIsShow(prevState => false)
+                  }} href="#products">Products</a><br/>
+                  <a className="nav-wrapper-link" onClick={() => setIsShow(prevState => false)} href="#features">Features</a><br/>
+                  <a className="nav-wrapper-link" onClick={() => setIsShow(prevState => false)} href="#about">About</a><br/>
+                  <a className="nav-wrapper-link" onClick={() => setIsShow(prevState => false)} href="#features">Features</a>
                 </nav>
               </div>
-            </div>
+            </div>}
           </div>
 
 
