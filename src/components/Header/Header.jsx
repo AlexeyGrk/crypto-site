@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {ReactComponent as Logo} from "../../assets/Logo3.svg";
 import {ReactComponent as HeaderIllustration} from "../../assets/Illustration.svg";
 import {ReactComponent as ArrowRight} from "../../assets/Arrow-Right.svg";
@@ -7,12 +7,9 @@ import {NavLink} from "react-router-dom";
 import styles from './Header.module.scss'
 
 const Header = () => {
-  const [isShow,setIsShow] = useState(true)
   return (
     <header className={'container'}>
 
-      {/*<HeaderPanell className={styles.headerPanelBg}/>*/}
-      {/*<HeaderPanell className={styles.headerPanelBgRight}/>*/}
       <div className={styles.headerContainer}>
         <NavLink
           to="/"
