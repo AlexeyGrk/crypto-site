@@ -93,10 +93,10 @@ const Header = () => {
             <div className="nav">
               <div className="nav-wrapper">
                 <nav>
-                  <a className="nav-wrapper-link" href="#">HOME</a><br/>
-                  <a className="nav-wrapper-link" href="#">ABOUT</a><br/>
-                  <a className="nav-wrapper-link" href="#">WORK</a><br/>
-                  <a className="nav-wrapper-link" href="#">SERVICES</a>
+                  <a className="nav-wrapper-link" href="#products">Products</a><br/>
+                  <a className="nav-wrapper-link" href="#features">Features</a><br/>
+                  <a className="nav-wrapper-link" href="#about">About</a><br/>
+                  <a className="nav-wrapper-link" href="#features">Features</a>
                 </nav>
               </div>
             </div>
