@@ -24,6 +24,10 @@
 }
 .featuresBitcoinInfoContainer{
   display: flex;
+  @include media-max(1199){
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
 }
 .featuresBitcoinInfoTextContainer{
@@ -67,6 +71,17 @@
   @include btn-blue();
   padding: 16px 32px;
 }
+.featuresBitcoinChart{
+  @include media-max(767){
+    max-width: 500px;
+  }
+  @include media-max(600){
+    max-width: 400px;
+  }
+  @include media-max(400){
+    max-width: 300px;
+  }
+}
 
 
 .featuresStatisticInfoContainer{
@@ -76,6 +91,33 @@
   align-items: center;
  position: relative;
   left: -160px;
+  @include media-max(1199){
+    position:initial;
+    flex-direction: column;
+  }
 }
 .featuresStatisticInfoImage{
+  @include media-max(767){
+  max-width: 550px;
+  }
+  @include media-max(600){
+    max-width: 400px;
+  }
+  @include media-max(400){
+    max-width: 300px;
+  }
+}
+.featuresTableIcon{
+  @include media-max(767){
+    max-width: 600px;
+  }
+  @include media-max(600){
+    max-width: 500px;
+  }
+  @include media-max(500){
+    max-width: 400px;
+  }
+  @include media-max(400){
+    max-width: 300px;
+  }
 }

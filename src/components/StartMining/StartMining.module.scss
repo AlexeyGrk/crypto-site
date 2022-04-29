@@ -13,11 +13,15 @@
   justify-content: space-between;
   position: relative;
   width: 100%;
-  min-width: 400px;
+  min-width: 300px;
   max-width: 1200px;
   background-color: #3671E9;
   border-radius: 16px;
   padding: 48px;
+  @include media-max(1199){
+   flex-direction: column;
+  }
+
 }
 
 .startMiningMainTitle{
@@ -91,6 +95,9 @@
   align-items: center;
   justify-content: flex-end;
   //margin-left: 180px;
+  @include media-max(500){
+    flex-direction: column-reverse;
+  }
 }
 .startMiningMainInput{
   width: 100%;

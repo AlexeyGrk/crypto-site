@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {ReactComponent as Logo} from "../../assets/Logo3.svg";
 import {ReactComponent as HeaderIllustration} from "../../assets/Illustration.svg";
 import {ReactComponent as ArrowRight} from "../../assets/Arrow-Right.svg";
@@ -7,8 +7,10 @@ import {NavLink} from "react-router-dom";
 import styles from './Header.module.scss'
 
 const Header = () => {
+  const [isShow,setIsShow] = useState(true)
   return (
     <header className={'container'}>
+
       {/*<HeaderPanell className={styles.headerPanelBg}/>*/}
       {/*<HeaderPanell className={styles.headerPanelBgRight}/>*/}
       <div className={styles.headerContainer}>
@@ -81,10 +83,31 @@ const Header = () => {
           </div>
 
 
-
         </nav>
+          <div className={styles.navigationBurgerSector}>
+            <input id="toggle" type="checkbox"></input>
+
+            <label htmlFor="toggle" className="hamburger">
+              <div className="top-bun"></div>
+              <div className="meat"></div>
+              <div className="bottom-bun"></div>
+            </label>
+
+            <div className="nav">
+              <div className="nav-wrapper">
+                <nav>
+                  <a className="nav-wrapper-link" href="#">HOME</a><br/>
+                  <a className="nav-wrapper-link" href="#">ABOUT</a><br/>
+                  <a className="nav-wrapper-link" href="#">WORK</a><br/>
+                  <a className="nav-wrapper-link" href="#">SERVICES</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+
 
       </div>
+
       <div className={styles.mainInfoContainer}>
         <div className={styles.mainInfoTextContainer}>
           <p className={styles.mainInfoDiscountText}><span className={styles.mainInfoDiscountSecondaryText}>75% SAVE</span> For the Black Friday weekend</p>

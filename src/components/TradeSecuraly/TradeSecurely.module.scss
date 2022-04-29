@@ -20,6 +20,9 @@
   max-height: 371px;
   padding: 48px;
   filter: drop-shadow(0px 20px 200px rgba(57, 23, 119, 0.05));
+  @include media-max(767){
+    max-height: 430px;
+  }
    input{
      min-height: 38px;
      &::placeholder {
@@ -133,6 +136,9 @@
   align-items: center;
   justify-content: center;
   gap: 45px;
+  @include media-max(1199){
+    flex-direction: column;
+  }
 }
 .tradeSecurelyMainSectionCardsListItem{
   padding: 48px 24px;

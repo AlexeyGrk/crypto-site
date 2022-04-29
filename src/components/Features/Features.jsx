@@ -21,7 +21,7 @@ const Features = (props) => {
            </button>
 
          </div>
-         <BitcoinChart/>
+         <BitcoinChart className={styles.featuresBitcoinChart}/>
 
        </div>
        <div className={styles.featuresStatisticInfoContainer}>

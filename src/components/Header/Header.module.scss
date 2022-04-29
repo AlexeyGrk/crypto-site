@@ -3,11 +3,13 @@ header{
   height: 100vh;
 }
 .headerContainer{
+
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 60px;
+
 
 }
 .headerPanelBg{
@@ -19,10 +21,20 @@ header{
   position: absolute;
   top: 250px;
   right: -400px;
+
 }
 .navigationSector{
   display: flex;
   align-items: center;
+  @include media-max(1199){
+    display: none;
+  }
+}
+.navigationBurgerSector{
+  display: none;
+  @include media-max(1199){
+    display: block;
+  }
 }
 .navigationList{
   display: flex;
@@ -95,6 +107,9 @@ header{
   display: flex;
   align-items: center;
   padding-top: 10px;
+  @include media-max(1199){
+    flex-direction: column-reverse;
+  }
 
 }
 .mainInfoTextContainer{
@@ -159,3 +174,7 @@ header{
 .mainInfoImage{
   width: 100%;
 }
+
+
+
+

@@ -3,12 +3,22 @@
   position: relative;
   padding-top: 100px;
   height: 100vh;
+  @include media-max(1199){
+    padding-top: 300px;
+  }
 }
 .statisticContainer{
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 50px;
+  @include media-max(767){
+    padding-top: 50px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 35px;
+    //display: none;
+  }
 }
 .statisticElement{
   display: flex;
@@ -56,6 +66,9 @@
   position: relative;
   display: flex;
   align-items: center;
+  @include media-max(1199){
+    flex-direction: column;
+  }
 }
 .whyWeComponentLimeFigure{
   position: absolute;
@@ -117,5 +130,11 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  @include media-max(1199){
+    padding-top: 400px;
+  }
+  @include media-max(767){
+    padding-top: 650px;
+  }
 
 }
