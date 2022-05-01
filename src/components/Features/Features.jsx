@@ -52,7 +52,8 @@ const Features = (props) => {
 
 
      </div>
-
+      <div className={styles.quarterCircle}></div>
+      <div className={styles.halfCircle}></div>
     </div>
   );
 };

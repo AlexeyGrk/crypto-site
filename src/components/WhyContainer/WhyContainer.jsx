@@ -52,6 +52,8 @@ const WhyWeComponent = (props) => {
           <button className={styles.whyWeComponentLearnMoreButton}>Learn more</button>
         </div>
 
+
+
       {/*<LimeFigureTwo className={styles.whyWeComponentLimeFigureTwo}/>*/}
       </div>
     </div>
@@ -59,6 +61,7 @@ const WhyWeComponent = (props) => {
         <h2 className={styles.whyWeComponentMainTextTitle}>Check how much you can earn</h2>
         <p className={styles.whyWeComponentSecondaryText}> Let’s check your hash rate to see how much you will earn today, <br/> Exercitation veniam consequat sunt nostrud amet.</p>
       </div>
+
     </div>
   );
 };
