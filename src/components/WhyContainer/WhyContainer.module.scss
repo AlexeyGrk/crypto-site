@@ -1,4 +1,7 @@
 @import "./src/sass/mixins";
+.whyWeComponentBg{
+  position: relative;
+}
 .whyWeComponentContainer{
   position: relative;
   padding-top: 100px;
@@ -11,6 +14,7 @@
   //}
 }
 .statisticContainer{
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -83,15 +87,15 @@
 }
 .whyWeComponentLimeFigure{
   position: absolute;
-  top: -80px;
-  right: -150px;
+  top: 10%;
+  right: 0;
  }
 .whyWeComponentLimeFigureTwo{
-  width: 154px;
+  max-width: 154px;
   overflow: hidden;
   position: absolute;
   right: 0;
-  bottom: -0;
+  bottom: 40%;
 }
 .whyWeComponentMainImageContainer{
 

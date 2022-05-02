@@ -2,6 +2,9 @@
 header{
   height: 100vh;
 }
+.headerBg{
+  position: relative;
+}
 .headerContainer{
 
   position: relative;
@@ -104,6 +107,7 @@ header{
 //
 
 .mainInfoContainer{
+  position: relative;
   display: flex;
   align-items: center;
   padding-top: 10px;
@@ -178,3 +182,16 @@ header{
 
 
 
+.firstPanell{
+  position: absolute;
+  overflow: hidden;
+  top: 120px;
+  right: 0;
+}
+.secondPanell{
+  max-height: 500px;
+  position: absolute;
+  overflow: hidden;
+  top: 340px;
+  right: 0;
+}

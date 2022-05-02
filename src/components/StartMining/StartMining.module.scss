@@ -45,14 +45,16 @@
 .diagonalLine{
   z-index: 1;
   position: absolute;
-  top: 20px;
-  left: -10%;
+  max-width: 400px;
+  bottom: 0;
+  left: 50%;
 
 }
 .diagonalLineSecondary{
+  max-width: 400px;
   z-index: 1;
   position: absolute;
-  top: 20px;
+  bottom: 0;
   left: 20%;
 }
 .startMiningBitcoinBg{
