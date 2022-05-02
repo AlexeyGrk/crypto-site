@@ -29,6 +29,7 @@
 Nav Styles
 **/
 .nav {
+  z-index: 3;
   padding-top: 100px;
   position: fixed;
   width: 100%;

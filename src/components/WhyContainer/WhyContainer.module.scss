@@ -32,10 +32,13 @@
 .statisticElement{
   display: flex;
   align-items: center;
-  margin-bottom: 35px;
-  &:first-child{
-    margin-bottom: 0;
+  @include media-max(767){
+    margin-bottom: 35px;
+    &:first-child{
+      margin-bottom: 0;
+    }
   }
+
 
 }
 .statisticElementImageContainer{
