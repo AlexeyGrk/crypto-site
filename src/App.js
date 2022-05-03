@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Header from "./components/Header/Header";
 import WhyWeComponent from "./components/WhyContainer/WhyContainer";
 import TradeSecurely from "./components/TradeSecuraly/TradeSecurely";
