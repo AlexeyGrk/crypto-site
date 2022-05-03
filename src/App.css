@@ -13,14 +13,7 @@
   width: 2em;
   height: 45px;
   z-index: 5;
-
-
 }
-//@media screen and (max-width: 767px) {
-//  .hamburger {
-//    right: 10%;
-//  }
-//}
 .hamburger div {
   position: relative;
   width: 3em;
