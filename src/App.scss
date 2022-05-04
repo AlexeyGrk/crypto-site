@@ -1,3 +1,4 @@
+@import "./src/sass/mixins";
 #toggle {
   display: none;
 }
@@ -5,7 +6,7 @@
   Hamburger
 **/
 .hamburger {
-  position: absolute;
+  position: fixed;
   top: 100px;
   right: 5%;
   margin-left: -2em;
@@ -13,6 +14,9 @@
   width: 2em;
   height: 45px;
   z-index: 5;
+  @include media-max(767){
+    right: 10%;
+  }
 }
 .hamburger div {
   position: relative;
