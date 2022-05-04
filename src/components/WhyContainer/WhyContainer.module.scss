@@ -28,6 +28,10 @@
     //gap: 35px;
     //display: none;
   }
+
+  @include media-max-wh(767,805){
+    padding-top: 200px;
+  }
 }
 .statisticElement{
   display: flex;
@@ -151,13 +155,16 @@
   justify-content: center;
   text-align: center;
   @include media-max(1199){
-    padding-top: 500px;
+    padding-top: 700px;
   }
   @include media-max(767){
     padding-top: 800px;
   }
   @include media-max(500){
     padding-top: 1050px;
+  }
+  @include media-max-wh(767,805){
+    padding-top: 1200px;
   }
   //@include media-max(500){
   //  padding-top: 800px;
