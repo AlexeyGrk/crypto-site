@@ -34,11 +34,18 @@
   padding-top: 40px;
   max-width: 400px;
   margin-right: 90px;
+  @include media-max(425){
+    margin-right: 0;
+    margin-left: 45px;
+  }
 }
 .featuresBitcoinStatisticTextContainer{
   padding-top: 40px;
   max-width: 400px;
   margin-left: 90px;
+  @include media-max(425){
+    margin-left: 45px;
+  }
 }
 .featuresBitcoinInfoTableTextContainer{
   padding-top: 40px;
