@@ -4,7 +4,7 @@ import {ReactComponent as Triangle} from "../../assets/VectorTriangle.svg";
 import {ReactComponent as BitcoinVector} from "../../assets/BitcoinVector.svg";
 import {ReactComponent as DiagonalVector} from "../../assets/DiagonalLine.svg";
 
-const StartMining = (props) => {
+const StartMining = () => {
   return (
     <div className={styles.bgStartMining}>
 

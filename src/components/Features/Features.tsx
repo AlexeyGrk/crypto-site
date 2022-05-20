@@ -6,7 +6,7 @@ import {ReactComponent as TableChart} from "../../assets/TableIcon.svg";
 import styles from './Features.module.scss'
 
 
-const Features = (props) => {
+const Features = () => {
   return (
     <div id="features" className={styles.bgContainer}>
 

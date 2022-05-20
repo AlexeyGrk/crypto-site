@@ -8,7 +8,7 @@ import {ReactComponent as LimeFigure} from "../../assets/sliceLimeFigure.svg";
 import {ReactComponent as LimeFigureTwo} from "../../assets/sliceLimeFigureTwo.svg";
 
 
-const WhyWeComponent = (props) => {
+const WhyWeComponent = () => {
   return (
     <div className={styles.whyWeComponentBg}>
       <div className={'container'}>

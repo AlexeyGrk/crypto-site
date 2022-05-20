@@ -5,7 +5,7 @@ import {ReactComponent as LiteCoin} from "../../assets/lite-icon.svg";
 import {ReactComponent as ArrowBtn} from "../../assets/Arrow-RightButton.svg";
 import styles from './TradeSecurely.module.scss'
 
-const TradeSecurely = (props) => {
+const TradeSecurely = () => {
   return (
     <div className={styles.tradeSecurely}>
       <div className={'container'}>
