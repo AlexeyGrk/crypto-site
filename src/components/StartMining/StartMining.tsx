@@ -16,7 +16,7 @@ const StartMining = () => {
           <BitcoinVector className={styles.startMiningBitcoinBg}/>
 
           <p className={styles.startMiningMainText}>
-            Join now with CRAPPO to get the latest news and start mining now
+            Join now with CRYPTO to get the latest news and start mining now
           </p>
         </div>
 
