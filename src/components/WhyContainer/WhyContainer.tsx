@@ -48,7 +48,7 @@ const WhyWeComponent = () => {
               <SecondaryIllustration className={styles.whyWeComponentMainImage}/>
             </div>
             <div className={styles.whyWeComponentMainTextContainer}>
-              <h2 className={styles.whyWeComponentMainTextTitle}>Why you should choose CRYPTO</h2>
+              <h2 className={styles.whyWeComponentMainTextTitle}>Why you should choose CRYPTOSIT</h2>
               <p className={styles.whyWeComponentSecondaryText}>Experience the next generation cryptocurrency <br/> platform. No financial borders, extra fees, and fake reviews.</p>
               <button className={styles.whyWeComponentLearnMoreButton}>Learn more</button>
 

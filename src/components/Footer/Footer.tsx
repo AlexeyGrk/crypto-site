@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.socialMediaLinksContainer}>
-          <p className={styles.stampsTitle}>©2021 CRYPTO. All rights reserved</p>
+          <p className={styles.stampsTitle}>©2021 CRYPTOSIT. All rights reserved</p>
           <ul className={styles.socialMediaLinksList}>
             <li className={styles.socialMediaLinksListItem}>
               <a href='https://www.facebook.com' target='_blank'  rel="noreferrer">
